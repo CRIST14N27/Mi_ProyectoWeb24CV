@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Cajas CSS</title>
+    <style>
+        .container {
+            width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .main-content {
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+
+        .sidebar {
+            float: left;
+            width: 30%;
+            background-color: #eee;
+            padding: 20px;
+        }
+
+        .content {
+            float: right;
+            width: 70%;
+            background-color: #fff;
+            padding: 20px;
+        }
+
+        .footer {
+            clear: both;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Título de la Página</h1>
+        </div>
+        <div class="main-content">
+            <div class="sidebar">
+                <h2>Barra lateral</h2>
+                <p>Contenido de la barra lateral.</p>
+            </div>
+            <div class="content">
+                <h2>Contenido Principal</h2>
+                <p>Este es el contenido principal de la página.</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Pie de página</p>
+        </div>
+    </div>
+</body>
+</html>

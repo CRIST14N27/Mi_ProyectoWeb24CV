@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "lato", sans-serif;
+    color: white;
+}
+
+a{
+    color: black;
+    font-weight: 600;
+    margin: 10px 0;
+    line-height: 1.2;
+}
+h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0;
+    line-height: 1.2;
+}
+h2{
+
+}
+p{
+    font-size: 10px;
+}
+img{
+    width: 100%;
+}
+li{
+    list-style-type: none;
+}
+.containers{
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: visible;
+}
+.navbar{
+    background-color: orange;
+    height: 70px;
+    padding: 0 30px;
+}
+.navbar h1{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 10px 0;
+    line-height: 1.2;
+}
+.navbar .flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
