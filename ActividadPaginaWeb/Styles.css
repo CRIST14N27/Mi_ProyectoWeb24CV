@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; 
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.logo img {
+    max-height: 50px;
+}
+.red-social {
+    color: red;
+}
+.imagen-grande img {
+    width: 100%;
+    height: auto;
+}
+
+.Titulo-juego {
+    color: #ff0000;
+    text-decoration: underline; 
+}
+
+.jugar-button {
+    background-color: #ff0000; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+}
+/* Sección de juegos */
+.juegos {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    margin: 20px;
+}
+
+.columna {
+    flex: 0 0 calc(33.333% - 10px); 
+    margin-bottom: 20px; 
+    padding: 10px;
+    border: 3px solid red;
+    text-align: center;
+    box-sizing: border-box; 
+}
+
+.columna img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
